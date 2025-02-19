@@ -9,42 +9,47 @@
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-    
-    <nav class="blue z-depth-0">
+  
+<!-- navbar section ----- start -->
+    <nav class="white z-depth-0">
         <div class="nav-wrapper">
-          <a href="#!" class="">Home</a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-          <ul class="right hide-on-med-and-down">
-            <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-            <li><a href="collapsible.html">Javascript</a></li>
-            <li><a href="mobile.html">Mobile</a></li>
+          <a href="#!" class="blue-text hide-on-large-only">Home</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger blue-text"><i class="material-icons">menu</i></a>
+          <ul class="hide-on-med-and-down">
+            <li><a href="/" class="blue-text">Home</a></li>
+            <li><a href="https://www.youtube.com/channel/UCqECaJ8Gagnn7YCbPEzWH6g" class="blue-text">YouTube</a></li>
+            <li><a href="https://www.instagram.com/taylorswift/" class="blue-text">Instagram</a></li>
+            <li><a href="users.html" class="blue-text">Users</a></li>
           </ul>
         </div>
       </nav>
-    
+  <!-- sidenav -->
       <ul class="sidenav" id="mobile-demo">
         <li><div class="user-view">
           <div class="background">
             <img src="/assets/images/swift-tortured-poets-department.jpg" class="w-full">
           </div>
-          <a href="#user"><img class="circle" src="/assets/images/Taylor-Swift.jpg"></a>
-          <a href="#name"><span class="white-text name">Taylor Swift</span></a>
-          <a href="#email"><span class="white-text email">taylor.swift@gmail.com</span></a>
+          <a><img class="circle" src="/assets/images/Taylor-Swift.jpg"></a>
+          <a><span class="white-text name">Taylor Swift</span></a>
+          <a><span class="white-text email">taylor.swift@gmail.com</span></a>
         </div></li>
         <li><a href="https://www.youtube.com/channel/UCqECaJ8Gagnn7YCbPEzWH6g"><i class="material-icons">link</i>YouTube channel</a></li>
         <li><a href="https://www.instagram.com/taylorswift/"><i class="material-icons">link</i>Instagram</a></li>
         <li><div class="divider"></div></li>
         <li><a class="subheader">pages</a></li>
-        <li><a class="waves-effect" href="#!">Home</a></li>
+        <li><a class="waves-effect" href="/">Home</a></li>
+        <li><a class="waves-effect" href="/users.html">Users</a></li>
       </ul>
+
+<!-- navbar section ----- end -->
       
-      
+<!-- home section ----- start -->
       <section class="flex-c-m flex-col size-full p-r-20 p-l-20">
         <img src="/assets/images/taylor-swift-2.jpg" class="w-full max-w-800 m-b-10 m-t-10">
         <a class="waves-effect waves-light btn blue border-radios-5rem max-w-500 w-full m-t-10 m-b-10">Shop</a>
         <a class="waves-effect waves-light btn blue border-radios-5rem max-w-500 w-full m-t-10 m-b-10">Album</a>
       </section>
+<!-- home section ----- end -->
 
     <script src="/assets/materialize/js/materialize.min.js"></script>
     <script src="/assets/js/script.js"></script>

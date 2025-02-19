@@ -1,3 +1,11 @@
+@media(min-width: 600px){
+
+    #top-actions-section{
+        display: flex !important;
+        align-items: center !important;
+    }
+}
+
 /* width */
 
 .w-full{
@@ -27,6 +35,10 @@
     padding-left: 20px;
 }
 
+.p-t-20{
+    padding-left: 20px;
+}
+
 .p-t-100{
     padding-top: 100px;
 }
@@ -39,6 +51,10 @@
 
 .m-b-10{
     margin-bottom: 10px;
+}
+
+.m-r-5{
+    margin-right: 5px;
 }
 
 /* border */
@@ -67,4 +83,14 @@
 
 .filter-shadow{
     filter: drop-shadow(2px 4px 6px black);
+}
+
+/* postion */
+
+.pos-relative{
+    position: relative;
+}
+
+.top-7{
+    top: 7px;
 }

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>users</title>
+    <link rel="stylesheet" href="/assets/materialize/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    
+
+<!-- navbar section ----- start -->
+<nav class="white z-depth-0">
+    <div class="nav-wrapper">
+      <a href="#!" class="blue-text hide-on-large-only">Users</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger blue-text"><i class="material-icons">menu</i></a>
+      <ul class="hide-on-med-and-down">
+        <li><a href="/" class="blue-text">Home</a></li>
+        <li><a href="https://www.youtube.com/channel/UCqECaJ8Gagnn7YCbPEzWH6g" class="blue-text">YouTube</a></li>
+        <li><a href="https://www.instagram.com/taylorswift/" class="blue-text">Instagram</a></li>
+        <li><a href="mobile.html" class="blue-text">Mobile</a></li>
+      </ul>
+    </div>
+  </nav>
+
+<!-- sidenav -->
+  <ul class="sidenav" id="mobile-demo">
+    <li><div class="user-view">
+      <div class="background">
+        <img src="/assets/images/swift-tortured-poets-department.jpg" class="w-full">
+      </div>
+      <a><img class="circle" src="/assets/images/Taylor-Swift.jpg"></a>
+      <a><span class="white-text name">Taylor Swift</span></a>
+      <a><span class="white-text email">taylor.swift@gmail.com</span></a>
+    </div></li>
+    <li><a href="https://www.youtube.com/channel/UCqECaJ8Gagnn7YCbPEzWH6g"><i class="material-icons">link</i>YouTube channel</a></li>
+    <li><a href="https://www.instagram.com/taylorswift/"><i class="material-icons">link</i>Instagram</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="subheader">pages</a></li>
+    <li><a class="waves-effect" href="/">Home</a></li>
+    <li><a class="waves-effect" href="/users.html">Users</a></li>
+  </ul>
+<!-- navbar section ----- end -->
+  
+
+<!-- content section ----- start -->
+  <section id="top-actions-section" class="row">
+
+    <!-- buttons -->
+     <div class="p-l-20 p-t-20 p-r-20 col s12 m3 l2">
+        <button class="waves-effect waves-light btn blue darken-2 w-full p-l-20 p-r-20 border-radios-5rem flex-c-m">
+            <i class="material-icons m-r-5">add</i>
+            Add user
+        </button>
+     </div>
+
+     <!-- search section -->
+     <div class="row col s12 m9 l8">
+        <div class="input-field col s12">
+          <input id="search" type="text" class="validate">
+          <label for="search">
+            <i class="material-icons pos-relative top-7">search</i>
+            search
+        </label>
+        </div>
+      </div>
+
+      <div class="col l2 hide-on-med-and-down"></div>
+
+  </section>
+<!-- content section ----- end -->
+
+    <script src="/assets/materialize/js/materialize.min.js"></script>
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>
