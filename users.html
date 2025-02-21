@@ -13,51 +13,51 @@
 
 <!-- navbar section ----- start -->
 <nav class="white z-depth-0">
-    <div class="nav-wrapper">
-      <a href="#!" class="blue-text hide-on-large-only">Users</a>
-      <a href="#" data-target="mobile-demo" class="sidenav-trigger blue-text"><i class="material-icons">menu</i></a>
-      <ul class="hide-on-med-and-down">
-        <li><a href="/" class="blue-text">Home</a></li>
-        <li><a href="https://www.youtube.com/channel/UCqECaJ8Gagnn7YCbPEzWH6g" class="blue-text">YouTube</a></li>
-        <li><a href="https://www.instagram.com/taylorswift/" class="blue-text">Instagram</a></li>
-        <li><a href="mobile.html" class="blue-text">Mobile</a></li>
-      </ul>
-    </div>
-  </nav>
-
+  <div class="nav-wrapper">
+    <a href="#!" class="purple-text lighten-1 hide-on-large-only">Home</a>
+    <a href="#" data-target="mobile-demo" class="sidenav-trigger purple-text lighten-2"><i class="material-icons">menu</i></a>
+    <ul class="hide-on-med-and-down">
+      <li><a href="/" class="purple-text lighten-1">Home</a></li>
+      <li><a href="https://www.youtube.com/channel/UCqECaJ8Gagnn7YCbPEzWH6g" class="purple-text lighten-1">YouTube</a></li>
+      <li><a href="https://www.instagram.com/taylorswift/" class="purple-text lighten-1">Instagram</a></li>
+      <li><a href="users.html" class="purple-text lighten-1">Users</a></li>
+    </ul>
+  </div>
+</nav>
 <!-- sidenav -->
-  <ul class="sidenav" id="mobile-demo">
-    <li><div class="user-view">
-      <div class="background">
-        <img src="/assets/images/swift-tortured-poets-department.jpg" class="w-full">
-      </div>
-      <a><img class="circle" src="/assets/images/Taylor-Swift.jpg"></a>
-      <a><span class="white-text name">Taylor Swift</span></a>
-      <a><span class="white-text email">taylor.swift@gmail.com</span></a>
-    </div></li>
-    <li><a href="https://www.youtube.com/channel/UCqECaJ8Gagnn7YCbPEzWH6g"><i class="material-icons">link</i>YouTube channel</a></li>
-    <li><a href="https://www.instagram.com/taylorswift/"><i class="material-icons">link</i>Instagram</a></li>
-    <li><div class="divider"></div></li>
-    <li><a class="subheader">pages</a></li>
-    <li><a class="waves-effect" href="/">Home</a></li>
-    <li><a class="waves-effect" href="/users.html">Users</a></li>
-  </ul>
+<ul class="sidenav" id="mobile-demo">
+  <li><div class="user-view">
+    <div class="background">
+      <img src="/assets/images/realistic-neon-lights-background.avif" class="w-full">
+    </div>
+    <a><img class="circle" src="/assets/images/default-avatar-profile-icon.jpg"></a>
+    <a><span class="white-text name">Name</span></a>
+    <a><span class="white-text email">example@email.com</span></a>
+  </div></li>
+  <li><a href="#"><i class="material-icons">link</i>YouTube channel</a></li>
+  <li><a href="#"><i class="material-icons">link</i>Instagram</a></li>
+  <li><div class="divider"></div></li>
+  <li><a class="subheader">pages</a></li>
+  <li><a class="waves-effect" href="/">Home</a></li>
+  <li><a class="waves-effect" href="/users.html">Users</a></li>
+</ul>
+
 <!-- navbar section ----- end -->
   
 
 <!-- content section ----- start -->
-  <section id="top-actions-section" class="row">
+  <section id="top-actions-section" class="row m-b-0">
 
     <!-- buttons -->
      <div class="p-l-20 p-t-20 p-r-20 col s12 m3 l2">
-        <button class="waves-effect waves-light btn blue darken-2 w-full p-l-20 p-r-20 border-radios-5rem flex-c-m">
+        <button class="waves-effect waves-light btn purple darken-2 w-full p-l-20 p-r-20 border-radios-5rem flex-c-m">
             <i class="material-icons m-r-5">add</i>
             Add user
         </button>
      </div>
 
      <!-- search section -->
-     <div class="row col s12 m9 l8">
+     <div class="row col s12 m9 l8 m-b-0">
         <div class="input-field col s12">
           <input id="search" type="text" class="validate">
           <label for="search">
@@ -70,9 +70,40 @@
       <div class="col l2 hide-on-med-and-down"></div>
 
   </section>
+
+  <section class="user-list-section">
+    <ul class="collapsible">
+      <li class="user-list-item">
+        <div class="collapsible-header">
+          <i class="material-icons purple-text darken-2 user-list-arrow-icon">arrow_drop_down_circle</i>
+          Name
+        </div>
+        <div class="collapsible-body">
+          <div class="p-all-5">
+            <span class="f-bold">Username: </span>
+            <span></span>
+          </div>
+          <div class="p-all-5">
+            <span class="f-bold">Email: </span>
+            <span>example@email.com</span>
+          </div>
+          <div class="p-all-5">
+            <span class="f-bold">Address: </span>
+            <span></span>
+          </div>
+          <div class="p-all-5 flex-l-m">
+            <span class="f-bold">Action: </span>
+            <!-- <i class="material-icons red-text m-r-5 m-l-5">delete-forever</i>
+            <i class="material-icons orange-text darken-3 m-l-5 m-r-5">edit</i> -->
+          </div>
+        </div>
+      </li>
+    </ul>
+  </section>
 <!-- content section ----- end -->
 
     <script src="/assets/materialize/js/materialize.min.js"></script>
     <script src="/assets/js/script.js"></script>
+    <script src="/assets/js/user.js"></script>
 </body>
 </html>
