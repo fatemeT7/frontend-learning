@@ -6,6 +6,10 @@
     }
 }
 
+table.highlight > tbody > tr:hover {
+    background-color: #7b1fa21a;
+  }
+
 .user-list-item.active .user-list-arrow-icon{
     transition: all ease 300ms;
 }
