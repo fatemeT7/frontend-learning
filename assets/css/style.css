@@ -22,6 +22,10 @@ table.highlight > tbody > tr:hover {
     background-color: rgb(233, 233, 233);
 }
 
+.container{
+    width: 100% !important;
+}
+
 /* width */
 
 .w-full{
@@ -41,6 +45,10 @@ table.highlight > tbody > tr:hover {
     max-width: 500px;
 }
 
+.max-w-50{
+    max-width: 50px;
+}
+
 /* padding */
 
 .p-all-5{
@@ -51,16 +59,52 @@ table.highlight > tbody > tr:hover {
     padding-right: 20px;
 }
 
+.p-r-9{
+    padding-right: 9px;
+}
+
+.p-r-5{
+    padding-right: 5px;
+}
+
 .p-l-20{
     padding-left: 20px;
 }
 
+.p-l-9{
+    padding-left: 9px;
+}
+
+.p-l-10{
+    padding-left: 10px;
+}
+
+.p-l-5{
+    padding-left: 5px;
+}
+
 .p-t-20{
-    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.p-t-15{
+    padding-top: 15px;
 }
 
 .p-t-100{
     padding-top: 100px;
+}
+
+.p-t-1{
+    padding-top: 1px;
+}
+
+.p-b-10{
+    padding-bottom: 10px;
+}
+
+.p-b-3{
+    padding-bottom: 3px;
 }
 
 /* margin */
@@ -91,7 +135,34 @@ table.highlight > tbody > tr:hover {
     border-radius: 5rem;
 }
 
+.no-border{
+    border: unset !important;
+}
+
+.rounded-top-30{
+    border-radius: 30px 30px 0px 0px;
+}
+
 /* flexbox */
+
+.flex-l{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.flex-l-m{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex !important;
+    justify-content: flex-start; 
+    align-items: center;
+}
 
 .flex-c-m{
     display: -webkit-box;
@@ -108,6 +179,20 @@ table.highlight > tbody > tr:hover {
     flex-direction: column;
 }
 
+.flex-sb-m{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.center-align{
+    align-items: center;
+}
+
 /* shadow */
 
 .filter-shadow{
@@ -118,6 +203,21 @@ table.highlight > tbody > tr:hover {
 
 .pos-relative{
     position: relative;
+}
+.pos-fixed{
+    position: fixed;
+}
+
+.bottom-0{
+    bottom: 0;
+}
+
+.right-0{
+    right: 0;
+}
+
+.left-0{
+    left: 0;
 }
 
 .top-7{
